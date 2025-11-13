@@ -1,0 +1,7 @@
+{
+  "name": "ECLAIRS: Engineering Communication & Language Active Impact Review System",
+  "description": "An AI-powered application by CODEWALLAH to enhance professional engineering communication. Features include a Clarity Engine for writing, a Speech Coach for speaking, and a Gemini-powered AI Coach for contextual rewriting and polishing.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

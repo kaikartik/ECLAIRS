@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand-beige: #FDFBF8;
+    --color-brand-brown-light: #D4C9BF;
+    --color-brand-brown: #8A6E59;
+    --color-brand-brown-dark: #4A3F35;
+    --color-brand-text: #3D3D3D;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFBF8;
+    color: #3D3D3D;
+  }
+}
+
+@layer components {
+  .bg-brand-beige {
+    background-color: #FDFBF8;
+  }
+  .bg-brand-brown-light {
+    background-color: #D4C9BF;
+  }
+  .bg-brand-brown {
+    background-color: #8A6E59;
+  }
+  .bg-brand-brown-dark {
+    background-color: #4A3F35;
+  }
+  .text-brand-beige {
+    color: #FDFBF8;
+  }
+  .text-brand-brown-light {
+    color: #D4C9BF;
+  }
+  .text-brand-brown {
+    color: #8A6E59;
+  }
+  .text-brand-brown-dark {
+    color: #4A3F35;
+  }
+  .text-brand-text {
+    color: #3D3D3D;
+  }
+  .border-brand-brown {
+    border-color: #8A6E59;
+  }
+  .border-brand-brown-dark {
+    border-color: #4A3F35;
+  }
+  .bg-brand-brown\/10 {
+    background-color: rgba(138, 110, 89, 0.1);
+  }
+  .border-brand-brown\/10 {
+    border-color: rgba(138, 110, 89, 0.1);
+  }
+  .border-brand-brown\/20 {
+    border-color: rgba(138, 110, 89, 0.2);
+  }
+  .border-brand-brown\/30 {
+    border-color: rgba(138, 110, 89, 0.3);
+  }
+  .text-brand-text\/70 {
+    color: rgba(61, 61, 61, 0.7);
+  }
+  .text-brand-text\/60 {
+    color: rgba(61, 61, 61, 0.6);
+  }
+  .text-brand-brown\/70 {
+    color: rgba(138, 110, 89, 0.7);
+  }
+  .text-brand-brown\/30 {
+    color: rgba(138, 110, 89, 0.3);
+  }
+  .bg-white\/50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

@@ -6,7 +6,7 @@ const AboutView: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-serif font-medium mb-4 text-brand-brown-dark">About ECLAIRS</h2>
             <div className="space-y-4 text-brand-text/80 text-lg max-w-3xl">
                 <p>
-                    <strong>ECLAIRS</strong> (Engineering Communication & Language Active Impact Review System) is a showcase application by <strong>CODEWALLAH</strong>, built to demonstrate the power of the Google Gemini API for complex and interactive tasks. It serves as a personal communication coach for technical professionals.
+                    <strong>ECLAIRS</strong> (Engineering Communication & Language Active Impact Review System) is a showcase application by <strong>CODEWALLAH</strong>, built to serve as a personal communication coach for technical professionals.
                 </p>
                 <p>
                     Whether you're writing a critical email, preparing a presentation, or practicing how to explain a complex topic, ECLAIRS provides instant, intelligent feedback to help you communicate with clarity, confidence, and impact.

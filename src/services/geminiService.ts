@@ -79,7 +79,7 @@ export const analyzeToneWithGemini = async (text: string): Promise<ToneAnalysis 
 export const polishTextWithGemini = async (text: string): Promise<string> => {
     try {
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-pro',
+            model: 'gemini-2.5-flash',
             contents: text,
             config: {
                 systemInstruction: `You are an expert copy editor for technical professionals. Rewrite the provided text to be more clear, concise, and impactful. 
@@ -123,7 +123,7 @@ export const analyzeSpeechWithGemini = async (base64Audio: string, recordingTime
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-pro",
+            model: "gemini-2.5-flash",
             contents: { parts: [audioPart, textPart] },
             config: {
                 responseMimeType: "application/json",
@@ -192,7 +192,7 @@ export const generatePracticeScenario = async (): Promise<{ scenario: string } |
 export const getPracticeFeedback = async (scenario: string, responseText: string): Promise<PracticeFeedback | { error: string }> => {
     try {
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-pro',
+            model: 'gemini-2.5-flash',
             contents: `As a technical communication coach, evaluate the following response to a given scenario.
             
             Scenario: "${scenario}"
